@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  mon_service:
+    build: .
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./config:/app
