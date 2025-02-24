@@ -13,7 +13,7 @@
 
 1. Clone the repository
 2. Install the server:
-    - ➡️ **Command line** : `wget https://downloads.gtnewhorizons.com/ServerPacks/GT_New_Horizons_2.7.2_Server_Java_17-21.zip` (you can replace the version with the one you want).
+    - ➡️ **Command line** : `wget https://downloads.gtnewhorizons.com/ServerPacks/GT_New_Horizons_2.7.2_Server_Java_17-21.zip` (you can replace the version with the one you want, must be for java 17-21)
     - ➡️ **Manually** : Go to the server install at [GT New Horizons Server Pack](https://downloads.gtnewhorizons.com/ServerPacks/). Install the latest version of the server pack for java 17-21 (⚠️ latest version tested is 2.7.2, if you have a newer version, you can try to use it, but I don't guarantee that it will work).
 4. Unzip the downloaded file in the same folder as the docker-compose.yml file and rename the folder to `config`
 5. Update the `config/server.properties` file with your server settings (see below)
